@@ -51,6 +51,6 @@ Use the following formula to calculate if GMT+2 then offset is 2x60x60=7200</p>
 <p>3d files from:</p>
 <p><a href="https://www.thingiverse.com/thing:2670123">https://www.thingiverse.com/thing:2670123</a></p>
 <img src="./photo1.jpg">
-
 <img src="./photo2.jpg">
+<img src="./photo3.jpg">
 

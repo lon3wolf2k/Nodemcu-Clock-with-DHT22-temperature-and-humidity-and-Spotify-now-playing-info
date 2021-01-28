@@ -43,6 +43,8 @@ Use the following formula to calculate if GMT+2 then offset is 2x60x60=7200</p>
 <p><strong>Wire Connections: </strong></p>
 <p>DHT22 data to D5-GPIO14 VCC to 3.3v and GND to GND,</p>
 <p> OLED's SCK goes to D1-GPIO5 and SDA to D2-GPIO4</p>
+<img src="./fritzing-Sketch_bb.jpg">
+
 <p>&nbsp;</p>
 <p>Made possible with the following examples and files:</p>
 <p><a href="https://github.com/witnessmenow/arduino-spotify-api">https://github.com/witnessmenow/arduino-spotify-api</a></p>
@@ -53,4 +55,5 @@ Use the following formula to calculate if GMT+2 then offset is 2x60x60=7200</p>
 <img src="./photo1.jpg">
 <img src="./photo2.jpg">
 <img src="./photo3.jpg">
+
 

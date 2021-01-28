@@ -1,4 +1,3 @@
-<h1>Esp8266-Oled-DHT22-Spotify</h1>
 <p>&nbsp;</p>
 <p>Esp8266/Nodemcu sketch to check the Temperature and Humidity from a DHT22 sensor, get the local time from NTP server and data from a spotify account and display them on an .96" Oled screen. Works with DHT11 also.</p>
 <p>Instructions:</p>

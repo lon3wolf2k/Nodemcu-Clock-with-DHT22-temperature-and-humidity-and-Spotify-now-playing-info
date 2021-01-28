@@ -43,7 +43,7 @@ Use the following formula to calculate if GMT+2 then offset is 2x60x60=7200</p>
 <p><strong>Wire Connections: </strong></p>
 <p>DHT22 data to D5-GPIO14 VCC to 3.3v and GND to GND,</p>
 <p> OLED's SCK goes to D1-GPIO5 and SDA to D2-GPIO4</p>
-<img src="./fritzing-Sketch_bb.jpg">
+<img src="./fritzing-design/fritzing-Sketch_bb.jpg">
 
 <p>&nbsp;</p>
 <p>Made possible with the following examples and files:</p>
@@ -52,8 +52,8 @@ Use the following formula to calculate if GMT+2 then offset is 2x60x60=7200</p>
 <p>&nbsp;</p>
 <p>3d files from:</p>
 <p><a href="https://www.thingiverse.com/thing:2670123">https://www.thingiverse.com/thing:2670123</a></p>
-<img src="./photo1.jpg">
-<img src="./photo2.jpg">
-<img src="./photo3.jpg">
+<img src="./images/photo1.jpg">
+<img src="./images/photo2.jpg">
+<img src="./images/photo3.jpg">
 
 

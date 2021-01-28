@@ -55,9 +55,16 @@ SimpleTimer timer;
 #include "DHT.h"
 
 
-//Screen and Temp sensor Libraries
+//Screen and Temp sensor Libraries, Search for NTPClient and install the library by Fabrice Weinber
 #include <NTPClient.h>
 #include <WiFiUdp.h>
+
+// Set offset time in seconds to adjust for your timezone, for example:
+// GMT +1 = 3600
+// GMT +8 = 28800
+// GMT -1 = -3600
+// GMT 0 = 0
+// Use the following formula to calculate if GMT+2 then offset is 2x60x60=7200
 
 const long utcOffsetInSeconds = 7200;
 

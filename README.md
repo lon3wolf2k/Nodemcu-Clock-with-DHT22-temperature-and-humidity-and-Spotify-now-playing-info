@@ -1,4 +1,4 @@
-<h1>Nodemcu Clock with DHT22 temperature and humidity data and Spotify now playing</h1>
+<h1>Nodemcu-Clock-with-DHT22-temperature-and-humidity-and-Spotify-now-playing</h1>
 <p>&nbsp;</p>
 <p>Esp8266/Nodemcu sketch to check the Temperature and Humidity from a DHT22 sensor, get the local time from NTP server and data from a spotify account and display them on an .96" Oled screen. Works with DHT11 also.</p>
 <p>Instructions:</p>
@@ -34,7 +34,15 @@
 </ul>
 <p>&nbsp;</p>
 <p>Enter all the above in the sketch plus your wifi credentials Make sure you have all the necessary libraries installed. </p>
-<p>Connect DHT22 data to D5-GPIO14 VCC to 3.3v and GND to GND OLED's SCK goes to D1-GPIO5 and SDA to D2-GPIO4</p>
+<p>Dont forget to set offset time in seconds to adjust for your timezone, for example:<br>
+  GMT +1 = 3600<br>
+  GMT +8 = 28800<br>
+  GMT -1 = -3600<br>
+  GMT 0 = 0<br>
+Use the following formula to calculate if GMT+2 then offset is 2x60x60=7200</p>
+<p><strong>Wire Connections: </strong></p>
+<p>DHT22 data to D5-GPIO14 VCC to 3.3v and GND to GND,</p>
+<p> OLED's SCK goes to D1-GPIO5 and SDA to D2-GPIO4</p>
 <p>&nbsp;</p>
 <p>Made possible with the following examples and files:</p>
 <p><a href="https://github.com/witnessmenow/arduino-spotify-api">https://github.com/witnessmenow/arduino-spotify-api</a></p>

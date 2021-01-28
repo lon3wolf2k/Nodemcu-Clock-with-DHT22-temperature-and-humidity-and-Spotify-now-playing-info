@@ -30,7 +30,7 @@
 <p>Because the webserver is only needed once, I decided to seperate the logic for getting the Refresh token to it's own examples.</p>
 <p>Follow the instructions in one of the following examples to get your token.</p>
 <ul>
-  <li><a href="https://github.com/lon3wolf2k/Nodemcu-Clock-with-DHT22-temperature-and-humidity-and-Spotify-now-playing/blob/main/getRefreshToken.ino">ESP8266</a></li>
+  <li><a href="https://github.com/lon3wolf2k/Nodemcu-Clock-with-DHT22-temperature-and-humidity-and-Spotify-now-playing/blob/main/src/getRefreshToken.ino">ESP8266</a></li>
 </ul>
 <p>&nbsp;</p>
 <p>Enter all the above in the sketch plus your wifi credentials Make sure you have all the necessary libraries installed. </p>
